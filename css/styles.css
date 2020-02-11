@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #E3DDBC;
+    border-top: 10px solid #40170E;
+    
+}
+
+.imagenPrincipal{
+    width: 85%;
+    border: 4px solid black;
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+    color: #40170E;
+    margin-top: 10px;
+    font-size: 3rem;
+    text-shadow: 5px 5px 2px rgba(150, 150, 150, 1);
+
+}
+
+h2{
+    font-size: 1rem;
+}
+
+.menuIndex{
+    margin: 0px auto;
+}
+nav{
+    background: #260E09;
+}
+
+
+nav a{
+    display: block;
+    color: white;
+    padding: 10px 10px ;
+}
+
+nav a:hover{
+    color: #D99C79;
+    text-decoration: none;
+}
+
+.nav2{
+    background: #260E09;
+    width: 100%;
+    color: white;
+}
+
+.nav2 a{
+    font-size: 18px;
+    color: white;
+    margin: 0px 50px;
+    padding: 15px 0px;
+}
+
+.menuCard{
+    width: 99%;
+    margin: 0px auto;
+}
+
+div article{
+    
+    padding: 10px;
+    background: #734022;
+    color: white;
+    -webkit-box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
+
+}
+
+article img{
+    width: 80%;
+   
+}
+
+div article h3{
+    font-family: 'Pacifico', cursive;
+}
+
+div article li{
+    list-style: none;
+}
+
+/* Contacto */
+.horario{
+    background: white;
+    border: 3px solid black;
+    height: 100px;
+}
+/* Animaciones */
+.bounceInRight{
+    animation-duration: 4s;
+}
+
+.slideInUp{
+    animation-duration: 4s;
+}
+
+.rollIn{
+    animation-duration: 2s;
+}
+
+.fadeInUp{
+    animation-delay: 0.8s;
+    animation-duration: 3s;
+}
+
+.swing{
+    animation-duration: 3s;
+}
+
+
+
+/* responsive */
+@media screen and (max-width: 523px){
+    .nav2 a{
+        font-size: 18px;
+        color: white;
+        margin: 0px 20px;
+        padding: 15px 0px;
+    }
+}
